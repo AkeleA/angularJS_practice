@@ -1,2 +1,3 @@
 # angularJS_practice
-Pracitce 
+
+https://akelea.github.io/angularJS_practice/
