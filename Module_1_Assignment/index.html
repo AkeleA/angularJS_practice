@@ -19,13 +19,14 @@
              <input id="lunch-menu" type="text"
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control"
-             ng-model="dishes">
+             ng-model="dishes"
+             style = 'border-color: {{color}}'>
          </div>
          <p> Empty elements are not allowed as a lunch item. For example ", , , , , ," count is still 0.</p>
          <div class="form-group">
          <button type= "button" class="btn btn-primary" ng-click="click();">Check If Too Much</button>
          </div>
-        <div class="form-group message" ng-style = 'border-color: {{color}}'>
+        <div class="form-group message">
            <!-- Your message can go here. -->
            {{messages}}
          </div>
