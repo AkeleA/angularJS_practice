@@ -17,7 +17,7 @@
         let dishesArray = $scope.dishes.split(',');
 
         for(let i = 0; i < dishesArray.length; i++){
-            if (dishesArray[i] !== ""){
+            if (dishesArray[i].trim() !== ""){
                 dishesCount ++;
             }
         }
